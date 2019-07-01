@@ -58,12 +58,12 @@ const middle = function(array1)
 {
   if(array1.length <= 2)
   {
-    console.log("no middle");
+    //console.log("no middle");
     return [];
 
   }else if(array1.length % 2 === 0)
   {
-    console.log("even");
+    //console.log("even");
     var middle = [array1[(array1.length)/2 -1], array1[(array1.length/2)]];
 
     return middle;
@@ -74,7 +74,7 @@ const middle = function(array1)
 
   }else
   {
-    console.log("odd");
+    //console.log("odd");
     var oddMiddle = [Math.floor((array1.length)/2) +1];
     return oddMiddle;
   }
@@ -82,6 +82,11 @@ const middle = function(array1)
 
 
 }
+
+
+module.exports = middle;
+
+
 console.log(middle([1])); // => []
 console.log(middle([1, 2])); // => [])
 console.log(middle([1, 2, 3])) // => [2]

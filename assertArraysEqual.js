@@ -10,7 +10,7 @@ const assertArraysEqual = function(array1, array2)
     {
       if(array1[i] !== array2[i])
       {
-        console.log("Arrays are not the same");
+        //console.log("Arrays are not the same");
         return false;
       }
     }
@@ -18,15 +18,16 @@ const assertArraysEqual = function(array1, array2)
   }
   else
   {
-    console.log("arrays not same length, therefore not the same");
+    //console.log("arrays not same length, therefore not the same");
     return false;
   }
-console.log("arrays are the same!");
+//console.log("arrays are the same!");
 return true;
 
 
 }
 
+module.exports = assertArraysEqual;
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]); // => true
 assertArraysEqual([1, 2, 3], [3, 2, 1]); // => false
