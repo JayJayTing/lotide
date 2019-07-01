@@ -1,6 +1,6 @@
 {
   "name": "@jzizzles/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lotide functions",
   "main": "assertArraysEqual.js",
   "directories": {
