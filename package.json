@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@jzizzles/lotide",
+  "version": "1.0.1",
+  "description": "lotide functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/JayJayTing/lotide.git"
   },
-  "author": "",
+  "author": "Jay Jay Ting <tingjayj@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JayJayTing/lotide/issues"
